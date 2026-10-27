@@ -26,13 +26,14 @@ function round2(value: number): number {
 
 /**
  * R5: ease' = ease + (0.1 - (5 - g) * (0.08 + (5 - g) * 0.02)), never below MIN_EASE.
- * The floor is applied to the stored value first so that a bad value that
- * somehow got into the file cannot drag the next review further down.
+ * The floor is applied to both the incoming ease (so a bad value that somehow
+ * got into the file cannot drag the next review further down) and the result,
+ * so a card can never graduate below MIN_EASE no matter how many lapses.
  */
 export function easeAfter(ease: number, grade: Grade): number {
   const miss = 5 - grade;
   const delta = 0.1 - miss * (0.08 + miss * 0.02);
-  return round2(Math.max(MIN_EASE, ease) + delta);
+  return round2(Math.max(MIN_EASE, Math.max(MIN_EASE, ease) + delta));
 }
 
 /** R3: 1 day, then 6 days, then the previous interval stretched by ease. */

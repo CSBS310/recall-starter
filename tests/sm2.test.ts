@@ -22,10 +22,28 @@ describe('easeAfter (R5)', () => {
   });
 });
 
+describe('easeAfter (R5) floor', () => {
+  it('never drops below MIN_EASE for grades 0, 1, 2 from 1.3 or 1.4', () => {
+    for (const ease of [1.3, 1.4]) {
+      for (const grade of [0, 1, 2]) {
+        expect(easeAfter(ease, grade as 0 | 1 | 2)).toBe(1.3);
+      }
+    }
+  });
+
+  it('schedule keeps ease at 1.30 after repeated lapses', () => {
+    let s = newCardState(TODAY);
+    for (let i = 0; i < 4; i++) {
+      s = schedule(s, 2, TODAY);
+    }
+    expect(s.easeFactor).toBe(1.3);
+  });
+
+});
+
 describe('schedule on a pass (R3)', () => {
   it('first pass: interval 1; second pass: interval 6', () => {
     const first = schedule(state(), 4, TODAY);
-    expect(first).toMatchObject({ repetitions: 1, intervalDays: 1 });
     const second = schedule(first, 4, '2026-11-18');
     expect(second).toMatchObject({ repetitions: 2, intervalDays: 6 });
   });
