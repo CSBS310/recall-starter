@@ -25,21 +25,26 @@ describe('easeAfter (R5)', () => {
 describe('schedule on a pass (R3)', () => {
   it('first pass: interval 1; second pass: interval 6', () => {
     const first = schedule(state(), 4, TODAY);
-    expect(first).toMatchObject({ repetitions: 1, intervalDays: 1 });
+    expect(first).toMatchObject({ repetitions: 1, intervalDays: 1, due: '2026-11-18' });
     const second = schedule(first, 4, '2026-11-18');
-    expect(second).toMatchObject({ repetitions: 2, intervalDays: 6 });
+    expect(second).toMatchObject({ repetitions: 2, intervalDays: 6, due: '2026-11-24' });
   });
 
   it('later passes stretch the interval by the ease factor and keep the lapse count', () => {
     const next = schedule(state({ repetitions: 2, intervalDays: 6, easeFactor: 2.5, lapses: 3 }), 4, TODAY);
     expect(next).toMatchObject({ intervalDays: 15, repetitions: 3, lapses: 3 });
   });
+
+  it('a 14-day interval from 2026-11-17 is due on 2026-12-01', () => {
+    const next = schedule(state({ repetitions: 2, intervalDays: 6, easeFactor: 2.36 }), 4, TODAY);
+    expect(next).toMatchObject({ intervalDays: 14, due: '2026-12-01' });
+  });
 });
 
 describe('schedule on a lapse (R4)', () => {
   it('resets repetitions, sets interval 1 and counts the lapse', () => {
     const next = schedule(state({ repetitions: 4, intervalDays: 30, lapses: 1 }), 2, TODAY);
-    expect(next).toMatchObject({ repetitions: 0, intervalDays: 1, lapses: 2 });
+    expect(next).toMatchObject({ repetitions: 0, intervalDays: 1, lapses: 2, due: '2026-11-18' });
   });
 
   it('grade 2 lowers ease by 0.32', () => {

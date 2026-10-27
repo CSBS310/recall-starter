@@ -26,6 +26,15 @@ describe('addDays', () => {
   it('adding 0 days returns the same day', () => {
     expect(addDays('2026-11-17', 0)).toBe('2026-11-17');
   });
+
+  it('adds positive days across a month end and a year end', () => {
+    expect(addDays('2026-11-17', 14)).toBe('2026-12-01');
+    expect(addDays('2026-12-30', 3)).toBe('2027-01-02');
+  });
+
+  it('subtracts days across a year boundary', () => {
+    expect(addDays('2026-01-02', -3)).toBe('2025-12-30');
+  });
 });
 
 describe('compareDays / daysBetween', () => {

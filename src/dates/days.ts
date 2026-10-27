@@ -36,10 +36,15 @@ export function addDays(day: string, n: number): string {
   if (n === 0) {
     return day;
   }
-  // Let Date carry the arithmetic across month and year ends.
-  const date = new Date(day);
-  date.setDate(date.getDate() + n);
-  return formatDay(date);
+  // Do the arithmetic in UTC. Parsing 'YYYY-MM-DD' with new Date() treats it as
+  // UTC midnight, while getDate()/setDate() read and write local time, so a
+  // machine behind UTC would land on the previous calendar day.
+  const date = new Date(Date.UTC(+day.slice(0, 4), +day.slice(5, 7) - 1, +day.slice(8, 10)));
+  date.setUTCDate(date.getUTCDate() + n);
+  const y = date.getUTCFullYear();
+  const m = String(date.getUTCMonth() + 1).padStart(2, '0');
+  const d = String(date.getUTCDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
 }
 
 /** Negative when a is earlier than b, 0 when equal, positive when later. */
