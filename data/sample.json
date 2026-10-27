@@ -1,0 +1,1250 @@
+{
+  "decks": [
+    {
+      "id": "anatomy-101",
+      "name": "Anatomy 101",
+      "createdOn": "2026-10-01"
+    },
+    {
+      "id": "spanish-verbs",
+      "name": "Spanish verbs",
+      "createdOn": "2026-10-12"
+    }
+  ],
+  "cards": [
+    {
+      "id": "an01",
+      "deckId": "anatomy-101",
+      "front": "How many chambers does the human heart have?",
+      "back": "Four: two atria and two ventricles",
+      "tags": [
+        "heart"
+      ],
+      "state": {
+        "intervalDays": 34,
+        "easeFactor": 2.6,
+        "repetitions": 4,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an02",
+      "deckId": "anatomy-101",
+      "front": "Which valve sits between the left atrium and left ventricle?",
+      "back": "The mitral (bicuspid) valve",
+      "tags": [
+        "heart",
+        "valves"
+      ],
+      "state": {
+        "intervalDays": 15,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an03",
+      "deckId": "anatomy-101",
+      "front": "Which valve sits between the right atrium and right ventricle?",
+      "back": "The tricuspid valve",
+      "tags": [
+        "heart",
+        "valves"
+      ],
+      "state": {
+        "intervalDays": 6,
+        "easeFactor": 2.36,
+        "repetitions": 2,
+        "due": "2026-11-17",
+        "lapses": 1
+      }
+    },
+    {
+      "id": "an04",
+      "deckId": "anatomy-101",
+      "front": "What is the largest artery in the body?",
+      "back": "The aorta",
+      "tags": [
+        "heart",
+        "vessels"
+      ],
+      "state": {
+        "intervalDays": 60,
+        "easeFactor": 2.7,
+        "repetitions": 5,
+        "due": "2026-12-20",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an05",
+      "deckId": "anatomy-101",
+      "front": "Which vessels carry blood away from the heart?",
+      "back": "Arteries",
+      "tags": [
+        "vessels"
+      ],
+      "state": {
+        "intervalDays": 16,
+        "easeFactor": 2.6,
+        "repetitions": 3,
+        "due": "2026-11-20",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an06",
+      "deckId": "anatomy-101",
+      "front": "Which vessels return blood to the heart?",
+      "back": "Veins",
+      "tags": [
+        "vessels"
+      ],
+      "state": {
+        "intervalDays": 14,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-15",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an07",
+      "deckId": "anatomy-101",
+      "front": "What is the name of the heart muscle tissue?",
+      "back": "Myocardium",
+      "tags": [
+        "heart"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 2.5,
+        "repetitions": 1,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an08",
+      "deckId": "anatomy-101",
+      "front": "Which chamber pumps blood into the pulmonary artery?",
+      "back": "The right ventricle",
+      "tags": [
+        "heart"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 1.96,
+        "repetitions": 0,
+        "due": "2026-11-16",
+        "lapses": 2
+      }
+    },
+    {
+      "id": "an09",
+      "deckId": "anatomy-101",
+      "front": "How many bones are in the adult human body?",
+      "back": "206",
+      "tags": [
+        "skeleton"
+      ],
+      "state": {
+        "intervalDays": 90,
+        "easeFactor": 2.8,
+        "repetitions": 6,
+        "due": "2027-01-14",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an10",
+      "deckId": "anatomy-101",
+      "front": "What is the longest bone in the body?",
+      "back": "The femur",
+      "tags": [
+        "skeleton"
+      ],
+      "state": {
+        "intervalDays": 36,
+        "easeFactor": 2.6,
+        "repetitions": 4,
+        "due": "2026-11-28",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an11",
+      "deckId": "anatomy-101",
+      "front": "What is the smallest bone in the body?",
+      "back": "The stapes, in the middle ear",
+      "tags": [
+        "skeleton",
+        "ear"
+      ],
+      "state": {
+        "intervalDays": 6,
+        "easeFactor": 2.5,
+        "repetitions": 2,
+        "due": "2026-11-18",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an12",
+      "deckId": "anatomy-101",
+      "front": "Which bone protects the brain?",
+      "back": "The cranium (skull)",
+      "tags": [
+        "skeleton"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an13",
+      "deckId": "anatomy-101",
+      "front": "What connects muscle to bone?",
+      "back": "Tendons",
+      "tags": [
+        "muscle"
+      ],
+      "state": {
+        "intervalDays": 15,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an14",
+      "deckId": "anatomy-101",
+      "front": "What connects bone to bone?",
+      "back": "Ligaments",
+      "tags": [
+        "muscle",
+        "skeleton"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 1.3,
+        "repetitions": 0,
+        "due": "2026-11-10",
+        "lapses": 8
+      }
+    },
+    {
+      "id": "an15",
+      "deckId": "anatomy-101",
+      "front": "Which muscle separates the chest from the abdomen?",
+      "back": "The diaphragm",
+      "tags": [
+        "muscle",
+        "respiration"
+      ],
+      "state": {
+        "intervalDays": 6,
+        "easeFactor": 2.36,
+        "repetitions": 2,
+        "due": "2026-11-19",
+        "lapses": 1
+      }
+    },
+    {
+      "id": "an16",
+      "deckId": "anatomy-101",
+      "front": "Where does gas exchange happen in the lungs?",
+      "back": "In the alveoli",
+      "tags": [
+        "respiration"
+      ],
+      "state": {
+        "intervalDays": 38,
+        "easeFactor": 2.7,
+        "repetitions": 4,
+        "due": "2026-12-05",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an17",
+      "deckId": "anatomy-101",
+      "front": "What is the windpipe called?",
+      "back": "The trachea",
+      "tags": [
+        "respiration"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 2.5,
+        "repetitions": 1,
+        "due": "2026-11-16",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an18",
+      "deckId": "anatomy-101",
+      "front": "Which organ produces insulin?",
+      "back": "The pancreas",
+      "tags": [
+        "digestion",
+        "endocrine"
+      ],
+      "state": {
+        "intervalDays": 15,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an19",
+      "deckId": "anatomy-101",
+      "front": "Which organ produces bile?",
+      "back": "The liver",
+      "tags": [
+        "digestion"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 1.3,
+        "repetitions": 0,
+        "due": "2026-11-12",
+        "lapses": 9
+      }
+    },
+    {
+      "id": "an20",
+      "deckId": "anatomy-101",
+      "front": "Where is bile stored?",
+      "back": "In the gallbladder",
+      "tags": [
+        "digestion"
+      ],
+      "state": {
+        "intervalDays": 6,
+        "easeFactor": 2.5,
+        "repetitions": 2,
+        "due": "2026-11-21",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an21",
+      "deckId": "anatomy-101",
+      "front": "What is the functional unit of the kidney?",
+      "back": "The nephron",
+      "tags": [
+        "kidney"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an22",
+      "deckId": "anatomy-101",
+      "front": "Which blood cells carry oxygen?",
+      "back": "Red blood cells (erythrocytes)",
+      "tags": [
+        "blood"
+      ],
+      "state": {
+        "intervalDays": 62,
+        "easeFactor": 2.7,
+        "repetitions": 5,
+        "due": "2026-12-28",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an23",
+      "deckId": "anatomy-101",
+      "front": "Which blood cells fight infection?",
+      "back": "White blood cells (leukocytes)",
+      "tags": [
+        "blood"
+      ],
+      "state": {
+        "intervalDays": 14,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "an24",
+      "deckId": "anatomy-101",
+      "front": "What protein in red blood cells binds oxygen?",
+      "back": "Haemoglobin",
+      "tags": [
+        "blood"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp01",
+      "deckId": "spanish-verbs",
+      "front": "hablar",
+      "back": "to speak",
+      "tags": [
+        "ar"
+      ],
+      "state": {
+        "intervalDays": 36,
+        "easeFactor": 2.6,
+        "repetitions": 4,
+        "due": "2026-12-01",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp02",
+      "deckId": "spanish-verbs",
+      "front": "comer",
+      "back": "to eat",
+      "tags": [
+        "er"
+      ],
+      "state": {
+        "intervalDays": 15,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp03",
+      "deckId": "spanish-verbs",
+      "front": "vivir",
+      "back": "to live",
+      "tags": [
+        "ir"
+      ],
+      "state": {
+        "intervalDays": 16,
+        "easeFactor": 2.6,
+        "repetitions": 3,
+        "due": "2026-11-22",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp04",
+      "deckId": "spanish-verbs",
+      "front": "ser",
+      "back": "to be (permanent)",
+      "tags": [
+        "irregular"
+      ],
+      "state": {
+        "intervalDays": 6,
+        "easeFactor": 2.36,
+        "repetitions": 2,
+        "due": "2026-11-17",
+        "lapses": 1
+      }
+    },
+    {
+      "id": "sp05",
+      "deckId": "spanish-verbs",
+      "front": "estar",
+      "back": "to be (temporary)",
+      "tags": [
+        "irregular"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 2.5,
+        "repetitions": 1,
+        "due": "2026-11-14",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp06",
+      "deckId": "spanish-verbs",
+      "front": "tener",
+      "back": "to have",
+      "tags": [
+        "irregular"
+      ],
+      "state": {
+        "intervalDays": 6,
+        "easeFactor": 2.5,
+        "repetitions": 2,
+        "due": "2026-11-18",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp07",
+      "deckId": "spanish-verbs",
+      "front": "ir",
+      "back": "to go",
+      "tags": [
+        "irregular"
+      ],
+      "state": {
+        "intervalDays": 1,
+        "easeFactor": 2.18,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 1
+      }
+    },
+    {
+      "id": "sp08",
+      "deckId": "spanish-verbs",
+      "front": "hacer",
+      "back": "to do, to make",
+      "tags": [
+        "irregular"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp09",
+      "deckId": "spanish-verbs",
+      "front": "poder",
+      "back": "to be able to",
+      "tags": [
+        "stem-change"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp10",
+      "deckId": "spanish-verbs",
+      "front": "querer",
+      "back": "to want",
+      "tags": [
+        "stem-change"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp11",
+      "deckId": "spanish-verbs",
+      "front": "decir",
+      "back": "to say",
+      "tags": [
+        "irregular",
+        "stem-change"
+      ],
+      "state": {
+        "intervalDays": 0,
+        "easeFactor": 2.5,
+        "repetitions": 0,
+        "due": "2026-11-17",
+        "lapses": 0
+      }
+    },
+    {
+      "id": "sp12",
+      "deckId": "spanish-verbs",
+      "front": "escribir",
+      "back": "to write",
+      "tags": [
+        "ir"
+      ],
+      "state": {
+        "intervalDays": 14,
+        "easeFactor": 2.5,
+        "repetitions": 3,
+        "due": "2026-11-16",
+        "lapses": 0
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r001",
+      "cardId": "an10",
+      "reviewedOn": "2026-10-01",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r002",
+      "cardId": "sp01",
+      "reviewedOn": "2026-10-03",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r003",
+      "cardId": "sp01",
+      "reviewedOn": "2026-10-04",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r004",
+      "cardId": "an16",
+      "reviewedOn": "2026-10-05",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r005",
+      "cardId": "an16",
+      "reviewedOn": "2026-10-06",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r006",
+      "cardId": "an10",
+      "reviewedOn": "2026-10-07",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 16
+    },
+    {
+      "id": "r007",
+      "cardId": "sp01",
+      "reviewedOn": "2026-10-10",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 16
+    },
+    {
+      "id": "r008",
+      "cardId": "an16",
+      "reviewedOn": "2026-10-12",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 16
+    },
+    {
+      "id": "r009",
+      "cardId": "an01",
+      "reviewedOn": "2026-10-14",
+      "grade": 5,
+      "intervalBefore": 16,
+      "intervalAfter": 34
+    },
+    {
+      "id": "r010",
+      "cardId": "an09",
+      "reviewedOn": "2026-10-16",
+      "grade": 5,
+      "intervalBefore": 134,
+      "intervalAfter": 90
+    },
+    {
+      "id": "r011",
+      "cardId": "an04",
+      "reviewedOn": "2026-10-21",
+      "grade": 5,
+      "intervalBefore": 43,
+      "intervalAfter": 60
+    },
+    {
+      "id": "r012",
+      "cardId": "an10",
+      "reviewedOn": "2026-10-23",
+      "grade": 5,
+      "intervalBefore": 16,
+      "intervalAfter": 36
+    },
+    {
+      "id": "r013",
+      "cardId": "an06",
+      "reviewedOn": "2026-10-25",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r014",
+      "cardId": "an02",
+      "reviewedOn": "2026-10-26",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r015",
+      "cardId": "an06",
+      "reviewedOn": "2026-10-26",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r016",
+      "cardId": "an13",
+      "reviewedOn": "2026-10-26",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r017",
+      "cardId": "an18",
+      "reviewedOn": "2026-10-26",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r018",
+      "cardId": "sp01",
+      "reviewedOn": "2026-10-26",
+      "grade": 5,
+      "intervalBefore": 16,
+      "intervalAfter": 36
+    },
+    {
+      "id": "r019",
+      "cardId": "sp02",
+      "reviewedOn": "2026-10-26",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r020",
+      "cardId": "sp12",
+      "reviewedOn": "2026-10-26",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r021",
+      "cardId": "an02",
+      "reviewedOn": "2026-10-27",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r022",
+      "cardId": "an13",
+      "reviewedOn": "2026-10-27",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r023",
+      "cardId": "an18",
+      "reviewedOn": "2026-10-27",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r024",
+      "cardId": "an22",
+      "reviewedOn": "2026-10-27",
+      "grade": 5,
+      "intervalBefore": 43,
+      "intervalAfter": 62
+    },
+    {
+      "id": "r025",
+      "cardId": "an23",
+      "reviewedOn": "2026-10-27",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r026",
+      "cardId": "sp02",
+      "reviewedOn": "2026-10-27",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r027",
+      "cardId": "sp12",
+      "reviewedOn": "2026-10-27",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r028",
+      "cardId": "an05",
+      "reviewedOn": "2026-10-28",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r029",
+      "cardId": "an16",
+      "reviewedOn": "2026-10-28",
+      "grade": 5,
+      "intervalBefore": 16,
+      "intervalAfter": 38
+    },
+    {
+      "id": "r030",
+      "cardId": "an23",
+      "reviewedOn": "2026-10-28",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r031",
+      "cardId": "an05",
+      "reviewedOn": "2026-10-29",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r032",
+      "cardId": "sp03",
+      "reviewedOn": "2026-10-30",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r033",
+      "cardId": "sp03",
+      "reviewedOn": "2026-10-31",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r034",
+      "cardId": "an06",
+      "reviewedOn": "2026-11-01",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 14
+    },
+    {
+      "id": "r035",
+      "cardId": "an02",
+      "reviewedOn": "2026-11-02",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 15
+    },
+    {
+      "id": "r036",
+      "cardId": "an13",
+      "reviewedOn": "2026-11-02",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 15
+    },
+    {
+      "id": "r037",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-02",
+      "grade": 0,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r038",
+      "cardId": "an18",
+      "reviewedOn": "2026-11-02",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 15
+    },
+    {
+      "id": "r039",
+      "cardId": "sp02",
+      "reviewedOn": "2026-11-02",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 15
+    },
+    {
+      "id": "r040",
+      "cardId": "sp12",
+      "reviewedOn": "2026-11-02",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 14
+    },
+    {
+      "id": "r041",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-03",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r042",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-03",
+      "grade": 0,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r043",
+      "cardId": "an23",
+      "reviewedOn": "2026-11-03",
+      "grade": 4,
+      "intervalBefore": 6,
+      "intervalAfter": 14
+    },
+    {
+      "id": "r044",
+      "cardId": "an05",
+      "reviewedOn": "2026-11-04",
+      "grade": 5,
+      "intervalBefore": 6,
+      "intervalAfter": 16
+    },
+    {
+      "id": "r045",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-04",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r046",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-04",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r047",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-05",
+      "grade": 0,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r048",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-05",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r049",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-06",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r050",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-06",
+      "grade": 0,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r051",
+      "cardId": "sp03",
+      "reviewedOn": "2026-11-06",
+      "grade": 5,
+      "intervalBefore": 6,
+      "intervalAfter": 16
+    },
+    {
+      "id": "r052",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-07",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r053",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-07",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r054",
+      "cardId": "an08",
+      "reviewedOn": "2026-11-08",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r055",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-08",
+      "grade": 0,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r056",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-08",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r057",
+      "cardId": "an03",
+      "reviewedOn": "2026-11-09",
+      "grade": 1,
+      "intervalBefore": 3,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r058",
+      "cardId": "an14",
+      "reviewedOn": "2026-11-09",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r059",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-09",
+      "grade": 0,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r060",
+      "cardId": "sp04",
+      "reviewedOn": "2026-11-09",
+      "grade": 1,
+      "intervalBefore": 3,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r061",
+      "cardId": "sp07",
+      "reviewedOn": "2026-11-09",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r062",
+      "cardId": "an03",
+      "reviewedOn": "2026-11-10",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r063",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-10",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r064",
+      "cardId": "sp04",
+      "reviewedOn": "2026-11-10",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r065",
+      "cardId": "an03",
+      "reviewedOn": "2026-11-11",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r066",
+      "cardId": "an11",
+      "reviewedOn": "2026-11-11",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r067",
+      "cardId": "an15",
+      "reviewedOn": "2026-11-11",
+      "grade": 1,
+      "intervalBefore": 3,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r068",
+      "cardId": "an19",
+      "reviewedOn": "2026-11-11",
+      "grade": 1,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r069",
+      "cardId": "sp04",
+      "reviewedOn": "2026-11-11",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r070",
+      "cardId": "sp06",
+      "reviewedOn": "2026-11-11",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r071",
+      "cardId": "an11",
+      "reviewedOn": "2026-11-12",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r072",
+      "cardId": "an15",
+      "reviewedOn": "2026-11-12",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r073",
+      "cardId": "sp06",
+      "reviewedOn": "2026-11-12",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r074",
+      "cardId": "an15",
+      "reviewedOn": "2026-11-13",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r075",
+      "cardId": "sp05",
+      "reviewedOn": "2026-11-13",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r076",
+      "cardId": "an20",
+      "reviewedOn": "2026-11-14",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r077",
+      "cardId": "an08",
+      "reviewedOn": "2026-11-15",
+      "grade": 2,
+      "intervalBefore": 6,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r078",
+      "cardId": "an17",
+      "reviewedOn": "2026-11-15",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r079",
+      "cardId": "an20",
+      "reviewedOn": "2026-11-15",
+      "grade": 4,
+      "intervalBefore": 1,
+      "intervalAfter": 6
+    },
+    {
+      "id": "r080",
+      "cardId": "an07",
+      "reviewedOn": "2026-11-16",
+      "grade": 4,
+      "intervalBefore": 0,
+      "intervalAfter": 1
+    },
+    {
+      "id": "r081",
+      "cardId": "sp07",
+      "reviewedOn": "2026-11-16",
+      "grade": 2,
+      "intervalBefore": 6,
+      "intervalAfter": 1
+    }
+  ]
+}
