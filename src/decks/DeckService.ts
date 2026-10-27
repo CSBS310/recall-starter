@@ -124,7 +124,7 @@ export class DeckService {
     const cardIds = this.store
       .listCards(deck.id)
       .filter((card) => !isLeech(card.state))
-      .filter((card) => compareDays(card.state.due, today) < 0)
+      .filter((card) => compareDays(card.state.due, today) <= 0)
       .sort((a, b) => compareDays(a.state.due, b.state.due) || a.id.localeCompare(b.id))
       .slice(0, limit)
       .map((card) => card.id);

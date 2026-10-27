@@ -14,7 +14,7 @@ describe('session (R2, R6)', () => {
     expect(service.session('d1').cardIds).toEqual(['c2', 'c3', 'c1']);
   });
 
-  it('does not offer a card that is due today or later', () => {
+  it('offers overdue and due-today cards, oldest due first', () => {
     const { service } = makeService({
       cards: [
         card('c1', { state: state({ due: TODAY }) }),
@@ -22,7 +22,7 @@ describe('session (R2, R6)', () => {
         card('c3', { state: state({ due: '2026-11-18' }) }),
       ],
     });
-    expect(service.session('d1', TODAY).cardIds).toEqual(['c2']);
+    expect(service.session('d1', TODAY).cardIds).toEqual(['c2', 'c1']);
   });
 
   it('caps the session at the limit', () => {
